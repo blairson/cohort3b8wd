@@ -299,8 +299,32 @@ import cmath
 # equ2 = (-b+ (x**0.5))/ (2*a)
 # print ("{0},{1}".format(equ1,equ2))
 
-a = int (input("enter the value of  a ? "))
-b = int ( input("enter the value of b ?"))
-z = (a ** 2) + (b ** 2 )
-to_get_our_c = z ** 0.5
-print (to_get_our_c)
+# a = int (input("enter the value of  a ? "))
+# b = int ( input("enter the value of b ?"))
+# z = (a ** 2) + (b ** 2 )
+# to_get_our_c = z ** 0.5
+# # print (to_get_our_c)
+#3 friend share sweet every morning when they meet they pool all their sweets together 
+# and they split it equally. after every split if it is not even the remainder is throw away .
+# write a small script that take three random number of sweets, and tell how many 
+# each friend will get 
+# a = float (input ("how many sweet did bola bring ?"))
+# b = float (input ("how many sweet did tola bring ?"))
+# c = float (input ("how many sweet did obum bring ?"))
+# total = a + b + c 
+# # print (total//3)
+# # x = total % 3
+# # print (x)
+ 
+# correction
+
+bola= int (input ("how many sweet did bola bring ?"))
+tola= int (input ("how many sweet did tola bring ?"))
+obum = int (input ("how many sweet did obum bring ?"))
+total = bola + tola + obum
+number_of_friend = 3
+equal_share= total // number_of_friend
+excess = total % number_of_friend
+
+print (f"Each friend will get {equal_share}sweets and {excess} will be discarded.")
+  

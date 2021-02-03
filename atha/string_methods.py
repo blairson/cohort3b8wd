@@ -103,6 +103,64 @@
 # print(x and y)
 # print(y and x or z)
 
-name = "alade"
-print("a" not in name)
+# name = "alade"
+# print("a" not in name)
 
+
+
+# bola = int(input("How many sweets from bola: "))
+# tola = int(input("How many sweets from tola: "))
+# obum = int(input("How many sweets from obum: "))
+
+# total = (bola + obum + tola)
+# number_of_friends = 3
+
+# equal_share = total // number_of_friends
+# excess = total % number_of_friends
+
+# print(f"Each friend will get {equal_share}sweets and {excess} will be discarded.")
+
+
+# bola = input("Enter names seperated by commas: ")
+# individuals = len(bola.split(","))
+# print(individuals)
+
+# max_age_allowed = 30
+
+# age = int(input("Enter you age : "))
+
+# print(f"Above allowable age : {age > max_age_allowed}")
+
+# a = int(input(" A : "))
+# b = int(input(" B : "))
+
+# print(f"{a} is greater than {b} : {a > b}")
+# print(f"{b} is greater than {a} : {b > a}")
+
+# height = float(input("Please enter your height: "))
+# age = float(input("Please enter your age: "))
+
+# min_age = 21
+# min_h = 5.1
+
+# print(f"Can hit the club (using and): {(age >= min_age) and (height >= min_h)}")
+# print(f"Can hit the club (using or): {(age >= min_age) or (height >= min_h)}")
+
+# print("\nFields are not compulsory press enter to skip > \n")
+# name = input("Please enter name : ") or "No name inputted"
+# age = input("Please enter age : ") or "nil"
+
+# print("Name : ", name)
+# print("Age : ", age)
+
+# SHORT CIRUITING AND COMPOUND EXPRESSIONS
+
+# def Q(val):
+#     print(f"Evaluating..Q({val})!!")
+#     return val
+
+# Q(1) < Q(3) <= Q(12)
+# Q(1) < Q(3) and Q(3) <= Q(12)
+
+# q_result = Q(3)
+# Q(1) < q_result and q_result <= Q(12)

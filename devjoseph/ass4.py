@@ -4,5 +4,5 @@
 firstname = input("enter your first name: ")
 lastname = input("enter your last name: ")
 
-file = open(f"./devjoseph/{lastname}.txt", "w")
+file = open(f"./devjoseph/week 3 assnm/{lastname}.txt", "w")
 file.write(firstname)

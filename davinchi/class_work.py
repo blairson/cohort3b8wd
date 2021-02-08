@@ -56,9 +56,69 @@
 # print("UnivelCity admission requirement")
 # a = 26
 # y = input("How old are you : ")
-# print(f"{a} is greater than {y} : {a} > {y}")
+# # print(f"{a} is greater than {y} : {a} > {y}")
 
-mynames = ["1", "2", "3"] 
+# mynames = ["1", "2", "3"] 
 
-print("-".join(mynames)) # join takes a delimiter and uses it to join up values in a list.
+# print("-".join(mynames)) # join takes a delimiter and uses it to join up values in a list.
 
+# import datetime
+
+# second = datetime.datetime.now().second
+
+# if second >= 30:
+#     print("You are in the first half of the minute...!!!")
+#     seconds_left = 60 - second
+#     print(second, "seconds have passed since you entered this minute.")
+#     print(seconds_left, "seconds remain before the next minute.")
+
+# TENARY OPERATORS
+
+a = 24
+b = 15
+
+# if a > b:
+#     m = a
+# else:
+#     m = b
+
+# a = 14
+# b = 13
+# m = a if a > b else b
+# print(m)
+
+# a = input("enter 1st number - ")
+# b = input("enter 2nd number - ")
+# m = a if a > b else b
+# print(m)
+
+# a = input("enter 1st number - ")
+# b = input("enter 2nd number - ")
+# m = a if a < b else a
+# # print(m)
+
+# cp = int(input("enter cost price - "))
+# sp = int(input("enter selling price - "))
+# mrg = float((sp - cp)/cp) * 100
+# print(f"{abs(mrg)}% loss" if sp < cp else f"{mrg}% profit")
+
+# cp = int(input("enter cost price - "))
+# sp = int(input("enter selling price - "))
+# mrg = float((sp - cp)/cp) * 100
+
+# profit_msg = f"{mrg}% profit"
+# loss_msg = f"{abs(mrg)}% loss"
+# print(profit_msg if sp > cp else loss_msg)
+
+# cp = int(input("enter cost price - "))
+# sp = int(input("enter selling price - "))
+# mrg = float((sp - cp)/cp) * 100
+
+# profit_msg = f"{mrg}% profit"
+# loss_msg = f"{abs(mrg)}% loss"
+# # print(profit_msg if sp > cp else loss_msg)
+
+# print("Checking if number inputted is a prime number")
+# num = int(input("enter a number - "))
+
+# READ MORE ON REALPYTHON.COM/PYTHON-CONDITIONAL-STATEMENTS/

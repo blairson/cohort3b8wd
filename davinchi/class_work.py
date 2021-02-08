@@ -122,3 +122,21 @@ b = 15
 # num = int(input("enter a number - "))
 
 # READ MORE ON REALPYTHON.COM/PYTHON-CONDITIONAL-STATEMENTS/
+
+# a = 100
+# b = 50
+# m = a if a < b else b
+# print(m)
+
+d = {'a': 0, 'b': 1, 'c': 0}
+
+if d['a'] > 0:
+    print('ok')
+elif d['b'] > 0:
+    print('ok')
+elif d['c'] > 0:
+    print('ok')
+elif d['d'] > 0:
+    print('ok')
+else:
+    print('not ok')

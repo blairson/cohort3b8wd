@@ -29,11 +29,36 @@
 # print(message)  
 
 
-print("A program to calculaye Simple Interest")
-P = float(input("What loan amount do you want? "))
-R = (float(input("What is the rate? ")))
-D = (float(input("For what duration? ")))
-r1 = (P) * (R) * (D)
-r2 = (r1)/(100)
-message = f"If you take a loan of {P:,} at the rate of {R}% for {D}months, you will pay back total of {r2:,} as monthly interest."
-print(message)
+# print("A program to calculaye Simple Interest")
+# P = input("What loan amount do you want? "))
+# R = ((input("What is the rate? ")))
+# D = ((input("For what duration? ")))
+# r1 = (P) * (R) * (D)
+# r2 = (r1)/(100)
+# message = f"If you take a loan of {P:,} at the rate of {R}% for {D}months, you will pay back total of {r2:,} as monthly interest."
+# print(message)
+
+# bola = int(input("how many sweet does bola have? "))
+# tolu = int(input("how many sweet does tolu have? "))
+# obum = int(input("how many sweet does obum have? "))
+# no_of_friends = 3
+# total = (bola + tolu + obum)
+# share = total // no_of_friends
+# extra = total % no_of_friends
+# message = (f"The three friends shared among themselves, {total}  sweets while each got  {share}  and  {extra}   was thrown away.")
+# print(message)
+
+# bola = int(input("how many sweet does bola have? "))
+# tolu = int(input("how many sweet does tolu have? "))
+# obum = int(input("how many sweet does obum have? "))
+# no_of_friends = 3
+
+# print("UnivelCity admission requirement")
+# a = 26
+# y = input("How old are you : ")
+# print(f"{a} is greater than {y} : {a} > {y}")
+
+mynames = ["1", "2", "3"] 
+
+print("-".join(mynames)) # join takes a delimiter and uses it to join up values in a list.
+

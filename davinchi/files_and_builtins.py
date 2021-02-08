@@ -21,9 +21,11 @@ excel ="wkbk.csv"
 # with open(filename, "r") as file:
 #     print(file.read())
 
-with open(excel, "w") as file:
-    print(file.write("ade, kunle, sunbo\n1,2,3"))
+# with open(excel, "w") as file:
+#     print(file.write("ade, kunle, sunbo\n1,2,3"))
 
-with open("wkbk.csv", "r") as file:
-    print(file.read())
+# with open("wkbk.csv", "r") as file:
+#     print(file.read())
+filename ="homework.txt"
+ file = open("mydata.txt", "r")
 

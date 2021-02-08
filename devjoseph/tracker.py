@@ -9,11 +9,17 @@
 # s = a if a < b else b
 # print(s)
 
-cost_price = int(input("Enter cost price: "))
-selling_price = int(input("Enter lost price: "))
+# cost_price = int(input("Enter cost price: "))
+# selling_price = int(input("Enter lost price: "))
 
-profit = (selling_price - cost_price) / cost_price * 100
-lost = (cost_price - selling_price) / cost_price * 100
+# profit = (selling_price - cost_price) / cost_price * 100
+# lost = (cost_price - selling_price) / cost_price * 100
 
-percenty = profit if profit > lost else lost
-print(int(percenty))
+# percenty = profit if profit > lost else lost
+# print(int(percenty))
+
+
+inputr  = int(input("enter a number: "))
+
+
+print("this's a prime number")

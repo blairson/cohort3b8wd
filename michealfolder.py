@@ -27,3 +27,26 @@
 # file.write(firstname)
 
 # print("I've created your txt file")
+
+
+# a = int (input("enter the value of A: "))
+# b = int (input("enter the value of B: "))
+# m = a if a > b else b
+# print (m)
+
+# a = int (input("enter the value of A : "))
+# b = int (input("enter the value of B : "))
+# x = a if a < b else b
+# print (x)
+
+
+# cost  = int (input("enter the value of cost price >: "))
+# selling  = int (input("enter the value of selling price >: "))
+# percentage_difference = ((selling - cost)/cost)*100
+# profit_message = f"{percentage_difference} % profit" 
+# loss_message = f(abs"{percentage_difference} % loss") 
+# print ( profit_message if cost < selling else loss_message)
+
+number = int (input( "write a prime number: "))
+numbers = (number // number) // 1
+print (numbers)

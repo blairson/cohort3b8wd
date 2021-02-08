@@ -318,13 +318,44 @@ import cmath
  
 # correction
 
-bola= int (input ("how many sweet did bola bring ?"))
-tola= int (input ("how many sweet did tola bring ?"))
-obum = int (input ("how many sweet did obum bring ?"))
-total = bola + tola + obum
-number_of_friend = 3
-equal_share= total // number_of_friend
-excess = total % number_of_friend
+# bola= int (input ("how many sweet did bola bring ?"))
+# tola= int (input ("how many sweet did tola bring ?"))
+# obum = int (input ("how many sweet did obum bring ?"))
+# total = bola + tola + obum
+# number_of_friend = 3
+# equal_share= total // number_of_friend
+# excess = total % number_of_friend
 
-print (f"Each friend will get {equal_share}sweets and {excess} will be discarded.")
-  
+# print (f"Each friend will get {equal_share}sweets and {excess} will be discarded.")
+# ASSIGNMENT
+
+# a = int (input ("enter number? : "))
+# b = int (input ("enter number? : "))
+# print (f"{a} is greater than {b}: {a > b}")
+# print (f"{b} is greater than {a}: {b > a}")
+
+# A = int (input ("enter the value of A: "))
+# VALUE_A = A , A * A, A ** A
+# print (VALUE_A)
+
+# A = int (input ("enter the value of A: "))
+# print ( A ,+ A * A , + A ** A)
+# Palindrome
+
+# word= input ("write a word: ")
+# if(word == word [::-1]):
+#     print ("the word is palindrome")
+# else:
+#     print ("not a palindrome")
+def my_function(xyz):
+     return xyz[::-1]
+xyz= my_function("HELLO MY UNIVELCITY PEOPLE")
+print (xyz)
+
+
+# a = int (input ("enter number? : "))
+# b = int (input ("enter number? : "))
+# print (f"{a} is greater than {b}: {a > b}")
+# print (f"{b} is greater than {a}: {b > a}")
+
+    

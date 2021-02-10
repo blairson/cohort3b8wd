@@ -70,73 +70,134 @@
 #     print("You are in the first half of the minute...!!!")
 #     seconds_left = 60 - second
 #     print(second, "seconds have passed since you entered this minute.")
-#     print(seconds_left, "seconds remain before the next minute.")
+# #     print(seconds_left, "seconds remain before the next minute.")
 
-# TENARY OPERATORS
+# # TENARY OPERATORS
 
-a = 24
-b = 15
+# a = 24
+# b = 15
 
-# if a > b:
-#     m = a
-# else:
-#     m = b
+# # if a > b:
+# #     m = a
+# # else:
+# #     m = b
 
-# a = 14
-# b = 13
-# m = a if a > b else b
-# print(m)
-
-# a = input("enter 1st number - ")
-# b = input("enter 2nd number - ")
-# m = a if a > b else b
-# print(m)
-
-# a = input("enter 1st number - ")
-# b = input("enter 2nd number - ")
-# m = a if a < b else a
+# # a = 14
+# # b = 13
+# # m = a if a > b else b
 # # print(m)
 
-# cp = int(input("enter cost price - "))
-# sp = int(input("enter selling price - "))
-# mrg = float((sp - cp)/cp) * 100
-# print(f"{abs(mrg)}% loss" if sp < cp else f"{mrg}% profit")
+# # a = input("enter 1st number - ")
+# # b = input("enter 2nd number - ")
+# # m = a if a > b else b
+# # print(m)
 
-# cp = int(input("enter cost price - "))
-# sp = int(input("enter selling price - "))
-# mrg = float((sp - cp)/cp) * 100
+# # a = input("enter 1st number - ")
+# # b = input("enter 2nd number - ")
+# # m = a if a < b else a
+# # # print(m)
 
-# profit_msg = f"{mrg}% profit"
-# loss_msg = f"{abs(mrg)}% loss"
-# print(profit_msg if sp > cp else loss_msg)
+# # cp = int(input("enter cost price - "))
+# # sp = int(input("enter selling price - "))
+# # mrg = float((sp - cp)/cp) * 100
+# # print(f"{abs(mrg)}% loss" if sp < cp else f"{mrg}% profit")
 
-# cp = int(input("enter cost price - "))
-# sp = int(input("enter selling price - "))
-# mrg = float((sp - cp)/cp) * 100
+# # cp = int(input("enter cost price - "))
+# # sp = int(input("enter selling price - "))
+# # mrg = float((sp - cp)/cp) * 100
 
-# profit_msg = f"{mrg}% profit"
-# loss_msg = f"{abs(mrg)}% loss"
+# # profit_msg = f"{mrg}% profit"
+# # loss_msg = f"{abs(mrg)}% loss"
 # # print(profit_msg if sp > cp else loss_msg)
 
-# print("Checking if number inputted is a prime number")
-# num = int(input("enter a number - "))
+# # cp = int(input("enter cost price - "))
+# # sp = int(input("enter selling price - "))
+# # mrg = float((sp - cp)/cp) * 100
 
-# READ MORE ON REALPYTHON.COM/PYTHON-CONDITIONAL-STATEMENTS/
+# # profit_msg = f"{mrg}% profit"
+# # loss_msg = f"{abs(mrg)}% loss"
+# # # print(profit_msg if sp > cp else loss_msg)
 
-# a = 100
-# b = 50
-# m = a if a < b else b
-# print(m)
+# # print("Checking if number inputted is a prime number")
+# # num = int(input("enter a number - "))
 
-d = {'a': 0, 'b': 1, 'c': 0}
+# # READ MORE ON REALPYTHON.COM/PYTHON-CONDITIONAL-STATEMENTS/
 
-if d['a'] > 0:
-    print('ok')
-elif d['b'] > 0:
-    print('ok')
-elif d['c'] > 0:
-    print('ok')
-elif d['d'] > 0:
-    print('ok')
-else:
-    print('not ok')
+# # a = 100
+# # b = 50
+# # m = a if a < b else b
+# # print(m)
+
+# # d = {'a': 0, 'b': 1, 'c': 0}
+
+# # if d['a'] > 0:
+# #     print('ok')
+# # elif d['b'] > 0:
+# #     print('ok')
+# # elif d['c'] > 0:
+# #     print('ok')
+# # elif d['d'] > 0:
+# #     print('ok')
+# # else:
+# #     print('not ok')
+
+# # LOOP
+
+# # # seconds count down
+# # import time
+# # cdt = int(input("enter a minute -  "))
+# # while cdt:
+# #     cdt -= 1
+# # #     time.sleep(1)
+# # #     print(f"{cdt} going down")
+
+# # # minutes and seconds countdown
+# # import time
+# # from winsound import Beep
+# # # minutes = int(input("enter a minute -  "))
+# # # while minutes > 0:
+# # #     seconds = 60
+# # #     minutes -=1
+
+# # #     while seconds > 0:
+
+# # #         seconds -= 1
+# # #         print(f"{minutes}:{seconds}")
+# # #         time.sleep(1)
+
+
+# # minutes = int(input("enter a minute -  "))
+# # while minutes > 0:
+# #     seconds = 60
+# #     minutes -=1
+# #     Beep(500, 200)
+
+# #     while seconds > 0:
+
+# #         seconds -= 1
+# #         print(f"{minutes}:{seconds} ", end = '', flush=True)
+# #         time.sleep(1)
+# #         print("\r",end="")
+
+import random
+
+while True:
+    input("Please enter keyboard - ")
+
+    dial1 = random.randint(1,6)
+    dail2 = random.randint(1,6)
+
+    print("1st dial - ", dial1)
+    print("2nd dial - ", dail2)
+
+    if dial1 == dail2 == 1:
+        print("CONGRATS, YOU WON!!!")
+        break
+    else:
+        print("sorry, try again")
+
+
+
+
+
+

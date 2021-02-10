@@ -19,12 +19,25 @@
 # else:
 #     print("The year is not a leap year (It has 365 days)")
 
+# Year = int(input("Enter Year : "))
+# det4 = Year % 4
+# det100 = Year% 100
+# det400 = Year % 400
+# if det4 == det100 == det400 == 0:
+#   print("The year is a leap year (It has 365 days)")
+# else:
+#     print("The year is not a leap year (It has 365 days)")
+
 Year = int(input("Enter Year : "))
 det4 = Year % 4
 det100 = Year% 100
 det400 = Year % 400
-if det4 == det100 == det400 == 0:
-  print("The year is a leap year (It has 365 days)")
+if det4 == 0:
+    print("The year is a leap year (It has 365 days)")
+elif det100 == 0:
+        print("The year is a leap year (It has 365 days)")
+elif det400 == 0 :
+    print("The year is a leap year (It has 365 days)")
 else:
     print("The year is not a leap year (It has 365 days)")
 

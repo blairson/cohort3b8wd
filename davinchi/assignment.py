@@ -28,4 +28,7 @@
 # file = open(f"./cohort3b8wd (Git) - davinchy/{last_name.txt" , "w")
 # file.write(first_name)
 
-if 
+# name = str(input("Enter you name- "))
+# age = input("Enter you age- ")
+# message = (f"{name}, you are {age}yrs Old!")
+# print(message)

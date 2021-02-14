@@ -28,17 +28,46 @@
 # else:
 #     print("The year is not a leap year (It has 365 days)")
 
-Year = int(input("Enter Year : "))
-det4 = Year % 4
-det100 = Year% 100
-det400 = Year % 400
-if det4 == 0:
-    print("The year is a leap year (It has 365 days)")
-elif det100 == 0:
-        print("The year is a leap year (It has 365 days)")
-elif det400 == 0 :
-    print("The year is a leap year (It has 365 days)")
-else:
-    print("The year is not a leap year (It has 365 days)")
+# Year = int(input("Enter Year : "))
+# det4 = Year % 4
+# det100 = Year% 100
+# det400 = Year % 400
+# if det4 == 0:
+#     print("The year is a leap year (It has 365 days)")
+# elif det100 == 0:
+#         print("The year is a leap year (It has 365 days)")
+# elif det400 == 0 :
+#     print("The year is a leap year (It has 365 days)")
+# else:
+#     print("The year is not a leap year (It has 365 days)")
 
+# import time
+# from winsound import Beep
+# minutes = int(input("Enter time : "))
+
+# while minutes > 0:
+#     seconds = 60
+#     minutes -= 1
+#     while seconds > 0:
+#             seconds-=1
+#             print (f"{minutes}:{seconds}")
+#             time.sleep(1)
+#             Beep(3000, 200)
+
+import random
+
+while True : 
+    input("PRESS ENTER TO ROLL")
+
+    die1 =random.randint (1, 6)
+    die2 =random.randint (1, 6)
+    
+    print("DIE 1-", die1)
+    print("DIE 2-", die2)
+
+    if die1 == die2 == 6:
+       print ( "congratulations you got siki 2")
+       break
+    else :
+        print ("sorry try again")
 

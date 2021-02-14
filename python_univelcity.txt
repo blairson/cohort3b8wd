@@ -1,0 +1,38 @@
+import datetime
+
+datetime= datetime.datetime.now()
+datel= [str(datetime.day),str(datetime.month),str(datetime.year)]
+timel = [str(datetime.hour), str(datetime.minute)]
+dateS= '.'.join(datel)
+timeS= ''.join(timel)
+timeS= int(timeS)
+if timeS > 1200 and timeS < 2359:
+timeS = ':'.join(timel) + 'PM'
+else :
+timeS = ':'.join(timel) + 'AM'
+
+print('The date is', dateS, 'and the time is', timeS, '.')
+
+
+#Merge Git
+git merge nerdu 
+
+#Then Push
+git push -u origin main
+
+#GitPull
+git pull
+
+
+
+realpython operators expressions
+
+
+
+Assignment
+1.Write a program that takes a string and prints the reverse.
+2.Write a program to test if a word is a palindrome.
+3.Write a program that takes an integer and prints it as such "a" + "a*a" + "a**a"
+i.e a=5=> 5 25 3125
+4.Write a program that takes a name and last name separated by comma and write the first name 
+into a file named the lastname.

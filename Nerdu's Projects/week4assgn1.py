@@ -5,7 +5,7 @@ guesses = 5
 
 while guesses>0:
     guesses -= 1
-    their_ran = int (input ("Make a guess from 1 - 100. You have just 5 guesses   "))
+    their_ran = int (input (f"Make a guess from 1 - 100. You have just {guesses} guesses left:  "))
     if myran==their_ran:
         print ("Congratulations! You guessed my number!")
         Beep (2000, 1000)

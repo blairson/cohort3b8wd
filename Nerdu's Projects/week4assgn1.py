@@ -1,9 +1,11 @@
 import random
 from winsound import Beep
 myran = random.randint(1, 100)
+guesses = 5
 
-while True:
-    their_ran = int (input ("Make a guess from 1 - 100.   "))
+while guesses>0:
+    guesses -= 1
+    their_ran = int (input ("Make a guess from 1 - 100. You have just 5 guesses   "))
     if myran==their_ran:
         print ("Congratulations! You guessed my number!")
         Beep (2000, 1000)
@@ -16,7 +18,8 @@ while True:
         continue
     elif their_ran - myran < 5:
         print ("You're too low. Increase your guess. ")
-
+else:
+    print ("You have run out of guesses. Please try again.")
 
 
 

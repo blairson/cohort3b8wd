@@ -109,15 +109,15 @@ import winsound
 #         print("Sorry Try again..!!!")
 
 
-# Multiplication table 
-multiple = 2
-multiplier = 1
-max_multiplier = 12
+# # Multiplication table 
+# multiple = 2
+# multiplier = 1
+# max_multiplier = 12
 
-while multiplier < max_multiplier:
+# while multiplier < max_multiplier:
 
-     print(f"{multiple} x {multiplier}".ljust(10), "|", multiplier * multiple)
-     multiplier += 1
+#      print(f"{multiple} x {multiplier}".ljust(10), "|", multiplier * multiple)
+#      multiplier += 1
 
 # long multiplication
 
@@ -147,18 +147,28 @@ while multiplier < max_multiplier:
 
 # ODD AND EVEN NUMBERS.
 
-number = int(input("Enter a number : "))
-odd_count = 0
-even_count = 0
+# number = int(input("Enter a number : "))
+# odd_count = 0
+# even_count = 0
 
-for numbers in range(1,number+1):
-  remainder = numbers%2
+# for numbers in range(1,number+1):
+#   remainder = numbers%2
 
-  if remainder == 0 :
-    even_count += 1
-    print(numbers)
+#   if remainder == 0 :
+#     even_count += 1
+#     print(numbers)
 
-  elif remainder >0:
-    odd_count +=1
+#   elif remainder >0:
+#     odd_count +=1
 
-print (f"{odd_count} odd numbers,\n{even_count} even numbers")
+# print (f"{odd_count} odd numbers,\n{even_count} even numbers")
+
+
+x = 30
+y = 15
+
+print(f"x-{x} y-{y}")
+
+x, y = y, x # SWITCH VARIABLES
+
+print(f"x-{x} y-{y}")

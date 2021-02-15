@@ -89,21 +89,59 @@ import winsound
 # dice_roll
 
 
-import random
+# import random
 
-while True:
+# while True:
 
-    input("PRESS ENTER TO ROLL")
+#     input("PRESS ENTER TO ROLL")
 
-    die1 = random.randint(1,6)
-    die2 = random.randint(1,6)
+#     die1 = random.randint(1,6)
+#     die2 = random.randint(1,6)
 
-    print("DIE 1- ", die1)
-    print("DIE 2- ", die2)
+#     print("DIE 1- ", die1)
+#     print("DIE 2- ", die2)
 
 
-    if die1 == die2 == 6:
-        print("CONGRATULATIONS YOU GOT SIKI 2..!!!")
-        break
-    else:
-        print("Sorry Try again..!!!")
+#     if die1 == die2 == 6:
+#         print("CONGRATULATIONS YOU GOT SIKI 2..!!!")
+#         break
+#     else:
+#         print("Sorry Try again..!!!")
+
+
+# Multiplication table 
+multiple = 2
+multiplier = 1
+max_multiplier = 12
+
+while multiplier < max_multiplier:
+
+     print(f"{multiple} x {multiplier}".ljust(10), "|", multiplier * multiple)
+     multiplier += 1
+
+# long multiplication
+
+# for i in range(1,12):
+#     for n in range(1,5):
+#         print(f"{n*i}".center(5), "|", end = "")
+#     print()
+#     if i == 1:
+#         print("-"*30)
+
+# LOAN ARMOTIZATION SCHEDULE
+
+p = int(input("Please enter principal : "))
+r = int(input("Please enter rate : "))
+t = int(input("Please enter time : "))
+
+
+number_of_payments = 0
+
+while number_of_payments < t: 
+    payment = (p + ((p*r*t)/100))/t
+    print(f"Month {number_of_payments+1} |", payment)
+    number_of_payments += 1
+
+
+# FOR LOOPS
+

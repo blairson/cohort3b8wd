@@ -1,4 +1,6 @@
-# number of Shape is 3 XYZ
-Z = 555 // 3
-answer = (Z + Z + Z)
-print (f"the result of {answer}")
+xyz = 185
+number_shape = 3
+if xyz * number_shape = zzz:
+    
+
+

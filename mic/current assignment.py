@@ -25,11 +25,20 @@
 # xyz= my_function("HELLO MY UNIVELCITY PEOPLE")
 # print (xyz)
 
-# firstname = input("my first name : ")
-# lastname = input("my last name : ")
-# file = open(f"{lastname}.txt", "w")
-# file.write(firstname)
-# print("I've created your txt file")
+firstname = input("my first name : ")
+lastname = input("my last name : ")
+file = open(f"{lastname}.txt", "w")
+file.write(firstname)
+print("I've created your txt file")
 
 a = int (input ("ENTER THE VAUES OF A ?  "))
 print (a,+ a * a,+ a ** a)
+
+
+#  # long multiplication
+# for i in range (1,12):
+#     for n in range (1,12):
+#         print (f"{n*1}".center (6), "|", end = "")
+#     print ()
+#     if i ==1:
+#         print ("_" * 20)

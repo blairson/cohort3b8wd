@@ -1,11 +1,11 @@
 import random
 from winsound import Beep
 myran = random.randint(1, 100)
-guesses = 5
+guesses = 7
 
 while guesses>0:
-    guesses -= 1
     their_ran = int (input (f"Make a guess from 1 - 100. You have just {guesses} guesses left:  "))
+    guesses -= 1
     if myran==their_ran:
         print ("Congratulations! You guessed my number!")
         Beep (2000, 1000)

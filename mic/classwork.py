@@ -1,4 +1,4 @@
-{# multiplication table
+# multiplication table
 # multiple = 2
 # multiplier = 1
 # max_multiplier = 13

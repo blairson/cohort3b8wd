@@ -130,18 +130,35 @@ while multiplier < max_multiplier:
 
 # LOAN ARMOTIZATION SCHEDULE
 
-p = int(input("Please enter principal : "))
-r = int(input("Please enter rate : "))
-t = int(input("Please enter time : "))
+# p = int(input("Please enter principal : "))
+# r = int(input("Please enter rate : "))
+# t = int(input("Please enter time : "))
 
 
-number_of_payments = 0
+# number_of_payments = 0
 
-while number_of_payments < t: 
-    payment = (p + ((p*r*t)/100))/t
-    print(f"Month {number_of_payments+1} |", payment)
-    number_of_payments += 1
+# while number_of_payments < t: 
+#     payment = (p + ((p*r*t)/100))/t
+#     print(f"Month {number_of_payments+1} |", payment)
+#     number_of_payments += 1
 
 
 # FOR LOOPS
 
+# ODD AND EVEN NUMBERS.
+
+number = int(input("Enter a number : "))
+odd_count = 0
+even_count = 0
+
+for numbers in range(1,number+1):
+  remainder = numbers%2
+
+  if remainder == 0 :
+    even_count += 1
+    print(numbers)
+
+  elif remainder >0:
+    odd_count +=1
+
+print (f"{odd_count} odd numbers,\n{even_count} even numbers")

@@ -26,6 +26,6 @@ while guess > 0:
         print("KEEP TRYING YOU WILL GET IT. ")
 else:
     print("you have reached the maximum number of guesses::::::::")
-    print("PLEASE PAY TO ACCESS ANOTHER GUESS")
+    print("PLEASE PAY TO ACCESS ANOTHER GUESS ::")
 
 

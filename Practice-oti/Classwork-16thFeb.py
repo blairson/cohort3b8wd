@@ -7,19 +7,35 @@
    
 #     highest_number +=1
 
-Loan_amount = int(input ("Enter Loan amount :"))
-interest_rate = int(input ("Enter interest :"))
-Duration = int (input ("Enter duration  :"))
+# Loan_amount = int(input ("Enter Loan amount :"))
+# interest_rate = int(input ("Enter interest :"))
+# Duration = int (input ("Enter duration  :"))
 
-number_of_payment = 0
+# number_of_payment = 0
 
-while number_of_payment < Duration :
-    interest_amount = Loan_amount *  (interest_rate*Duration)
-    total_repayment = Loan_amount + interest_amount
-    monthly_repayment = total_repayment/Duration
+# while number_of_payment < Duration :
+#     interest_amount = Loan_amount *  (interest_rate*Duration)
+#     total_repayment = Loan_amount + interest_amount
+#     monthly_repayment = total_repayment/Duration
 
 
-    print (f"month{number_of_payment+1} |", monthly_repayment)
-    number_of_payment +=1
+#     print (f"month{number_of_payment+1} |", monthly_repayment)
+#     number_of_payment +=1
 
-    
+
+number = int(input("Enter a number : "))
+odd_count = 0
+even_count = 0
+odd = []
+even = []
+for numbers in range(1,number+1):
+  even_numbers = numbers%2
+
+  if even_numbers == 0 :
+    even_count += 1
+    even.append (numbers)
+  elif even_numbers >0:
+    odd_count +=1
+    odd.append(numbers)
+
+print (f"{odd_count} odd numbers {odd},\n{even_count} even numbers {even}")

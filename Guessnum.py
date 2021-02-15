@@ -8,7 +8,7 @@ guess = 10
 
 while guess > 0:
     guess -=1
-    rand_entry=int (input (f"Guess a numBer from 1-100.   n/you have {guess} guesses left: "))
+    rand_entry=int (input (f"Guess a numBer from 1-100.   \nyou have {guess} guesses left: "))
     if rand_entry==rand:
         print("CONGRATULATIONS  YOU JUST WON A MILLION NAIRA")
         Beep (400, 200)

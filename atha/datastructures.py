@@ -32,10 +32,32 @@
 # x = max(my_list)
 # print(x)
 
-# print(['foo', 'bar', 'baz', 'qux', 'quux', 'corge'][2])
-x = ['a', ['bb', ['ccc', 'ddd'], 'ee', 'ff'], 'g', ['hh', 'ii'], 'j']
-# print(len(x))
-# for i in x:
-#     print(i)
+# # print(['foo', 'bar', 'baz', 'qux', 'quux', 'corge'][2])
+# x = ['a', ['bb', ['ccc', 'ddd'], 'ee', 'ff'], 'g', ['hh', 'ii'], 'j']
+# # print(len(x))
+# # for i in x:
+# #     print(i)
 
-# print(x[1][1][0]) # deep indexing for a nested list 
+# # print(x[1][1][0]) # deep indexing for a nested list 
+
+# # altering list values
+
+# # 1. alter a single list item
+
+# x[2] = [2,3,4,"as"] # this will replace g in our list with the list on the left hand side
+# print(x)
+
+# x[2:4] = [1,2,3,4]
+# print(x)
+
+# TUPLES PACKING AND UNPACKING
+
+my_tup = (1,2,3,4,5)
+
+x,y,z,a,b, = (1,2,3,4,5)
+print(z)
+index_4 =my_tup.index(4)
+
+four = my_tup[index_4]
+
+print(four)

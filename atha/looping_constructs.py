@@ -163,12 +163,58 @@ import winsound
 
 # print (f"{odd_count} odd numbers,\n{even_count} even numbers")
 
+# name = "adesola"
 
-x = 30
-y = 15
+# for character in name:
+#     print(character)
 
-print(f"x-{x} y-{y}")
+# matric_number = 10088757 # fails because matric is a number and  numbers are not iterable
+# for number in matric_number:
+#     print(number)
 
-x, y = y, x # SWITCH VARIABLES
+# items = ["phone", "red marker", "blue marker", "nothing"]
 
-print(f"x-{x} y-{y}")
+# for _ in items:
+#     print("Hello")
+# x = 30
+# y = 15
+
+# print(f"x-{x} y-{y}")
+
+# x, y = y, x # SWITCH VARIABLES
+
+# print(f"x-{x} y-{y}")
+
+# count the occurences of a char in a word
+
+# word = input("Please enter word : ").upper()
+# target_char = input("Please enter character : ").upper()
+
+# number_of_occurences = 0
+
+# for character in word:
+    
+#     if character == target_char:
+#         print("found", character)
+#         number_of_occurences += 1
+
+# print(f"Number of {target_char} in {word} - ", number_of_occurences)
+
+
+# word = input("Please enter word : ").upper()
+# target_char = input("Please enter character : ").upper()
+
+# count = 0
+
+# for character in word:
+    
+#     if character == target_char:
+#         print("found", character)
+#         count += 1
+
+# print(f"Number of {target_char} in {word} - ", count)
+
+word = input("Please enter word : ")
+target_char = input("Please enter character : ")
+
+print(word.count(target_char))

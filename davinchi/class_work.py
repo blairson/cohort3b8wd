@@ -179,25 +179,60 @@
 # #         time.sleep(1)
 # #         print("\r",end="")
 
-import random
+# import random
 
-while True:
-    input("Please enter keyboard - ")
+# while True:
+#     input("Please enter keyboard - ")
 
-    dial1 = random.randint(1,6)
-    dail2 = random.randint(1,6)
+#     dial1 = random.randint(1,6)
+#     dail2 = random.randint(1,6)
 
-    print("1st dial - ", dial1)
-    print("2nd dial - ", dail2)
+#     print("1st dial - ", dial1)
+#     print("2nd dial - ", dail2)
 
-    if dial1 == dail2 == 1:
-        print("CONGRATS, YOU WON!!!")
-        break
-    else:
-        print("sorry, try again")
+#     if dial1 == dail2 == 1:
+#         print("CONGRATS, YOU WON!!!")
+#         break
+#     else:
+#         print("sorry, try again")
+
+# import time
+# from winsound import Beep
+
+# n = int(input("Enter a number to print - "))
+# multiplier = 1
+# max_multiplier = 13
+
+# while multiplier < max_multiplier:
+#     print(f"{n} x {multiplier}" .center(7), "|", multiplier * n)
+#     multiplier += 1
+#     Beep(200, 500)
+
+# LONG MULTIPLICATION
+# for i in range(1,13):
+#     for n in range(1,6):
+#         print(f"{n*i}".center(5), "|", end = "")
+#     print()
+#     if i == 1:
+#         print()
 
 
+# sel_nos =  int(input("Enter a number to search through - "))
+# even_Nos = 0
+# odd_Nos = 0
+# for numbers in range(1, int(sel_nos) + 1):
+#     remainder = numbers%2
+    
+#     if (numbers % 2) == 0:
+#         even_Nos +=1
+#         print(numbers)
+#     elif remainder > 0:
+#         odd_Nos +=1
+#         print("odd_Nos", numbers)
 
-
-
-
+# LIST SLICING - DATA STRUCTURES
+combs = [1,2,3,4,5,6,7,8,9] 
+combs [1:]
+# print(combs[2:7])
+combs[-len(combs):]
+print(combs[-len(combs):])
